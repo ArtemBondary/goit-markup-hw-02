@@ -5,51 +5,56 @@ body {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
 }
-/* Header */
 
-/* логотип */
-.topbar_logo {
+/* Логотип */
+.logo-link {
   font-family: "Raleway", sans-serif;
-  font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
-  color: #2e2f42;
-}
-.topbar_logo:hover,
-.topbar_logo:active {
-  color: #2e2f42;
-}
-.start_logo {
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
-.start_logo:hover,
-.start_logo:active {
-  color: #4d5ae5;
-}
-/* Посілання навігацій */
-.nav_list a {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
+
+.logo-span {
   color: #2e2f42;
 }
 
-.nav_list a:hover,
-.nav_list a:active {
+/* Навігація */
+.nav-list a.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-list a.nav-link:hover,
+.nav-list a.nav-link:focus {
   color: #404bbf;
 }
-/* контакти в хедер  */
 
-.contacts a {
-  font-size: 16px;
-  line-height: 24px;
-  color:#434455;
+/* Контакти */
+.header-contacts {
+  font-style: normal;
 }
-.contacts a:hover {
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 
