@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: white;
+  background-color: #ffffff;
 }
 ul {
   list-style: none;
@@ -13,7 +13,8 @@ a {
 }
 
 /* Логотип */
-.logo-link {
+.logo-link,
+.footer_logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -22,22 +23,23 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-
 .logo-span {
   color: #2e2f42;
 }
+.start_logo {
+  color: #f4f4fd;
+}
 
 /* Навігація */
-.nav-list a.nav-link {
+.nav-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.nav-list a.nav-link:hover,
-.nav-list a.nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: #404bbf;
 }
 
@@ -45,118 +47,117 @@ a {
 .header-contacts {
   font-style: normal;
 }
-
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .contact-link:hover,
 .contact-link:focus {
   color: #404bbf;
 }
 
-/* секція з гаслом та кнопкою замовлення */
+/* Перша секція */
 .section_call {
-  height: 600px;
   background-color: #2e2f42;
-} 
+}
 .call_text {
   font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
   color: #ffffff;
 }
 .call_button {
- font-size: 16px;
- font-weight: 500;
- line-height: 24px;
- color: #ffffff;
- background-color: #4d5ae5;
- border-radius: 8px;
- padding: 16px 32px;
- border: none;
-  cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: all 0.4s ease;
-}
-.call_button:hover {
-  background-color: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-/* секція cthdscw (h3+p*4) */
-.section_services {
-  height: 344px;
-  
-}
-.section_services h3 {
-  font-size: 20px;
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.call_button:hover,
+.call_button:focus {
+  background-color: #404bbf;
+}
+
+/* Друга секція */
+.section_services h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.service_item {
-  width: 264px;
-}
-.section_services p{
+.section_services p {
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  height: 72px;
+  color: #434455;
 }
-/* секція (фото учасників команди) */
+
+/* Третя секція */
 .section_team {
-  height: 732px;
-  top: 1016px;
   background-color: #f4f4fd;
 }
+.section_team h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .section_team h3 {
-  font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .section_team p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
-/* секція портфоліо  */
-.sectoin_portfolio {
-  height: 1240px;
+
+/* Портфоліо */
+.section_portfolio {
+  background-color: #ffffff;
+}
+.section_portfolio h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .section_portfolio h3 {
-  font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .section_portfolio p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
+
 /* Footer */
 .footer {
-  height: 312px;
   background-color: #2e2f42;
-}
-.footer_logo {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 21px;
-  color: #F4F4FD;
 }
 .footer p {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: var(--footer-color, #f4f4fd);
 }
