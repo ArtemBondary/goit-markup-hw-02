@@ -87,58 +87,8 @@ a {
 }
 
 /* Друга секція */
-.section_services h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section_services p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Третя секція */
-.section_team {
-  background-color: #f4f4fd;
-}
-.section_team h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-.section_team h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section_team p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* Портфоліо */
-.section_portfolio {
-  background-color: #ffffff;
-}
-.section_portfolio h2 {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+.section_services h3,
+.section_team h3,
 .section_portfolio h3 {
   font-weight: 500;
   font-size: 20px;
@@ -146,6 +96,8 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.section_services p,
+.section_team p,
 .section_portfolio p {
   font-size: 16px;
   line-height: 1.5;
@@ -153,11 +105,31 @@ a {
   color: #434455;
 }
 
+/* Заголовки секцій */
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* Третя секція */
+.section_team {
+  background-color: #f4f4fd;
+}
+
+/* Портфоліо */
+.section_portfolio {
+  background-color: #ffffff;
+}
+
 /* Footer */
 .footer {
   background-color: #2e2f42;
 }
-.footer p {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
