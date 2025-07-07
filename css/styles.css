@@ -51,7 +51,7 @@ body {
 
 /* ----ХЕДЕР  */
 
-/* Перша секція */
+/* ПЕРША секція--- */
 .section_call {
   background-color: #2e2f42;
 }
@@ -68,29 +68,17 @@ body {
   font-weight: 500;
   color: #ffffff;
   cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 .call_button:hover,
 .call_button:focus {
   background-color: #404bbf;
 }
+/* ---ПЕРША секція */
 
-/* Друга секція */
-.section_services h3,
-.section_team h3,
-.section_portfolio h3 {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.section_services p,
-.section_team p,
-.section_portfolio p {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+/* ДРУГА секція--- */
+
 
 /* Заголовки секцій */
 .section-title {
@@ -101,18 +89,22 @@ body {
   text-transform: capitalize;
   color: #2e2f42;
 }
+/* ---ДРУГА секція */
 
-/* Третя секція */
+/* ТРЕТЯ секція _ */
 .section_team {
   background-color: #f4f4fd;
 }
-
-/* Портфоліо */
+.section_team_list {
+background-color: #FFFFFF 
+}
+/* ЧЕТВЕРТА секція _ */
 .section_portfolio {
   background-color: #ffffff;
 }
 
-/* Footer */
+
+/* FOOTER--- */
 .footer {
   background-color: #2e2f42;
 }
@@ -121,3 +113,4 @@ body {
   letter-spacing: 0.02em;
   color:  #f4f4fd ;
 }
+/* ---FOOTER */
