@@ -79,18 +79,35 @@ body {
 
 /* ДРУГА секція--- */
 
+.service_title {
+font-weight: 500;
+ font-size: 20px;
+ line-height: 1.2;
+ letter-spacing: 0.02em;
+ color: #2e2f42;
+}
+
 
 
 /* ---ДРУГА секція */
 
 /* ТРЕТЯ секція _ */
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .section_team {
   background-color: #f4f4fd;
 }
 .section_team_list {
 background-color: #FFFFFF 
 }
-.service_title, 
+
 .service-title_image {
 font-weight: 500;
  font-size: 20px;
@@ -98,7 +115,7 @@ font-weight: 500;
  letter-spacing: 0.02em;
  color: #2e2f42;
 }
-.service-text, 
+
 .service-text {
   line-height: 1.5;
   letter-spacing: 0.02em
@@ -106,12 +123,18 @@ font-weight: 500;
 }
 
 /* ЧЕТВЕРТА секція _ */
+ .section-title{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 .section_portfolio {
   background-color: #ffffff;
 }
             
-
-        /* .service-title_image і .service-text  в третій сексції  */
 
 
 /* FOOTER--- */
